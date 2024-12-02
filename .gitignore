@@ -1,0 +1,9 @@
+.env
+hyperfine.exe
+node_modules
+
+# Package managers
+bun.lockb
+package-lock.json
+pnpm-lock.yaml
+yarn.lock

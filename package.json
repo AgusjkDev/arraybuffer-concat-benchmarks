@@ -1,0 +1,29 @@
+{
+    "name": "arraybuffer-concat-benchmarks",
+    "version": "1.0.0",
+    "description": "This repository benchmarks various ArrayBuffer concatenation algorithms in Node.js using hyperfine.",
+    "main": "benchmark-runner.js",
+    "scripts": {
+        "format": "prettier --write ."
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/agusjkdev/arraybuffer-concat-benchmarks.git"
+    },
+    "keywords": [
+        "Benchmark",
+        "ArrayBuffer",
+        "Node.js",
+        "Hyperfine"
+    ],
+    "author": "Agustín Arnoldi",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/agusjkdev/arraybuffer-concat-benchmarks/issues"
+    },
+    "homepage": "https://github.com/agusjkdev/arraybuffer-concat-benchmarks#readme",
+    "devDependencies": {
+        "dotenv": "16.4.5",
+        "prettier": "3.4.1"
+    }
+}
